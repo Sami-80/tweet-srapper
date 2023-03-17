@@ -9,7 +9,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5",
     "cron": "^2.2.0",
