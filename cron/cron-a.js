@@ -54,8 +54,8 @@ async function main() {
                           if (error) console.log(error);
                           else {
                             console.log(results);
-                            var io = require("../index").io;
-                            io.emit("NEW_NOTIFICATION", { data: results });
+                            // var io = require("../index").io;
+                            // io.emit("NEW_NOTIFICATION", { data: results });
                           }
                         }
                       );

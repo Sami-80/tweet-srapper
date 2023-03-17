@@ -94,12 +94,12 @@ const { setTimeout } = require("timers/promises");
 httpServer = http.createServer(app);
 
 //create socket server
-var io = require("socket.io").listen(httpServer, { origins: "*:*" });
-require(__dirname + "/socket")(io);
+// var io = require("socket.io").listen(httpServer, { origins: "*:*" });
+// require(__dirname + "/socket")(io);
 
 // Make the server listen
 httpServer.listen(3000);
 console.log("Listening on port 3000 with SSL false");
 
 module.exports = app;
-module.exports.io = io;
+// module.exports.io = io;
